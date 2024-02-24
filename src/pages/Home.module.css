@@ -1,0 +1,107 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+   
+
+}
+.container{
+    width: 100vw;
+    height: 80vh;
+display: flex;
+    padding: 5px 0px 5px 80px;
+}
+.left{background-color: #fff;
+    width: 50vw;
+    height: 70vh;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+
+}
+p{
+        max-width: 75%;
+        color: #666;
+            margin-bottom: 0.7rem;
+            padding-left: 4px;
+            font-size: 1rem;
+            display: block;
+}
+h1{
+        font-family: Modernera, sans-serif;
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.2;
+            width: 40vw;
+}
+button{
+      width: 12vw;
+      height: 8vh;
+      background-color: #fff;
+      border: 1px solid #666;
+      border-radius: 5px;
+      color: #666;
+      margin-top: 40px;
+      cursor: pointer;
+                
+}
+.right{
+   background-image: url("/src/assets/background.jpeg");
+        width: 50vw;
+        height: 80vh;
+        background-color: #cccccc;
+         
+            background-position: center;
+           
+            background-repeat: no-repeat;
+         
+            background-size: cover;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 30px;
+        gap: 5px;
+}
+.btn1{
+    width: 8vw;
+        height: 6vh;
+        background-color: #fff;
+        border: 2px solid black;
+        border-radius: 50px;
+        color: black;
+        margin-top: 40px;
+}
+.Sort{
+    background-color: #FAFAFA;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 80px;
+ flex-wrap: wrap;
+ display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   
+}
+.category{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+
+}
+.catimg{
+    width: 7vw;
+    height: 15vh;
+}
+.atom{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
