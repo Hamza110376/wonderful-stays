@@ -1,0 +1,30 @@
+.main{
+    background-image: url(/src/assets/backgroungimg.jpg);
+        background-position: 50%;
+        background-size: cover;
+        position: relative;
+        width: 100vw;
+        height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+}
+.main h2{
+    width: 45vw;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
+.main p{
+    color: #fff;
+    font-size: 1.5vw;
+}
+.main button{
+    background-color: black;
+    color: #fff;
+    border: black;
+}

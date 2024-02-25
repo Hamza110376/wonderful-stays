@@ -2,6 +2,7 @@ import Discover from "../components/Discover";
 import Favourites from "../components/Favourites";
 import Navbar from "../components/Navbar";
 import PopularCategories from "../components/PopularCategories";
+import Register from "../components/Register";
 import styles from "./Home.module.css";
 
 function Home() {
@@ -131,6 +132,7 @@ function Home() {
         <PopularCategories categories={categories} />
         <Favourites cards={card} />
         <Discover />
+        <Register/>
       </div>
     </>
   );
