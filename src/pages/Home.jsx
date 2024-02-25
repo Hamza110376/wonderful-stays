@@ -1,3 +1,5 @@
+
+import Blogs from "../components/Blogs";
 import Discover from "../components/Discover";
 import Favourites from "../components/Favourites";
 import Mission from "../components/Mission";
@@ -137,6 +139,7 @@ function Home() {
         <Register/>
         <Mission/>
         <Testmonial/>
+        <Blogs/>
       </div>
     </>
   );
