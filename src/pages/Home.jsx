@@ -1,8 +1,10 @@
 import Discover from "../components/Discover";
 import Favourites from "../components/Favourites";
+import Mission from "../components/Mission";
 import Navbar from "../components/Navbar";
 import PopularCategories from "../components/PopularCategories";
 import Register from "../components/Register";
+import Testmonial from "../components/Testmonial";
 import styles from "./Home.module.css";
 
 function Home() {
@@ -133,6 +135,8 @@ function Home() {
         <Favourites cards={card} />
         <Discover />
         <Register/>
+        <Mission/>
+        <Testmonial/>
       </div>
     </>
   );

@@ -1,0 +1,12 @@
+.main{
+    width: 100vw;
+    padding: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.main h1{
+    width: 70vw;
+    font-weight: 530;
+}
