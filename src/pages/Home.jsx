@@ -1,7 +1,6 @@
-
-import Blogs from "../components/Blogs";
 import Discover from "../components/Discover";
 import Favourites from "../components/Favourites";
+import Footer from "../components/Footer";
 import Mission from "../components/Mission";
 import Navbar from "../components/Navbar";
 import PopularCategories from "../components/PopularCategories";
@@ -139,7 +138,7 @@ function Home() {
         <Register/>
         <Mission/>
         <Testmonial/>
-        <Blogs/>
+        <Footer/>
       </div>
     </>
   );

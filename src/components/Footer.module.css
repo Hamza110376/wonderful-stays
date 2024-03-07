@@ -1,0 +1,13 @@
+.main{
+    width: 100vw;
+  overflow: hidden;
+    padding: 80px;
+}
+.first{
+display: flex;
+justify-content: space-between;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
