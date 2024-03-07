@@ -135,10 +135,10 @@ function Home() {
         <PopularCategories categories={categories} />
         <Favourites cards={card} />
         <Discover />
-        <Register/>
-        <Mission/>
-        <Testmonial/>
-        <Footer/>
+        <Register />
+        <Mission />
+        <Testmonial />
+        <Footer />
       </div>
     </>
   );

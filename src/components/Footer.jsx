@@ -5,7 +5,7 @@ import {
   FaInstagram,
   FaXTwitter,
   FaLinkedin,
-  IoLogoYoutube,
+  FaYoutube,
 } from "react-icons/fa6";
 
 function Footer() {
@@ -35,8 +35,6 @@ function Footer() {
   return (
     <div className={styles.main}>
       <div className={styles.first}>
-       
-
         <div className={styles.items}>
           {NavItems.map((items) => (
             <a className={styles.a} key={items} href={items.link}>
@@ -49,7 +47,7 @@ function Footer() {
           <FaInstagram />
           <FaXTwitter />
           <FaLinkedin />
-          <IoLogoYoutube />
+          <FaYoutube />
         </div>
       </div>
     </div>
